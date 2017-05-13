@@ -1,0 +1,151 @@
+<!--  Author: Melinda Hasselbring
+      Date:  5/8/2017
+      Email: melinda.hasselbring@gmail.com 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    
+    <title>Totally Trivial Trivia!</title>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h2 id="triva"> Totally Trivial Trivia!</h2>
+            <div class="row">
+                <div id="trivialQ" class="col-sm-12">
+                    <h3> Famous President's Quotes, can you name who said it? </h3>
+                    <br>
+                    <div id="timer"></div>
+                    <!-- <h4> Time Remaining: <span id="seconds"></span>seconds</h4> -->
+
+                    <br>
+                    <h4 id="q1"> <b>"The only thing we have to fear is fear itself."</b> </h4>
+                    <form action="" target="result" method="get">
+                        <table width=100%>
+                            <tr>
+                                <td width=220>
+                                    <input type="radio" name="answer0" value="Ronald Reagan">
+                                    <h5>Ronald Reagan</h5>
+                                </td>
+
+                                <td width=220>
+                                    <input type="radio" name="answer0" value="Franklin D. Roosevelt" id="FDR"><h5>Franklin D. Roosevelt</h5>
+                                </td>
+
+                                <td width=220>
+                                    <input type="radio" name="answer0" value="Theodore Roosevelt" id="TR"><h5>Theodore Roosevelt</h5>
+                                </td>
+
+                                <td width=220>
+                                    <input type="radio" name="answer0" value=" Donald Trump"
+                                    id="DT"><h5> Donald Trump</h5>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+
+                    <br>
+
+
+                    <h4 id="q2"><b>"Liberty without learning is always in peril, and learning without liberty is always in vain."</b> </h4>
+                    <form action="" target="result" method="get">
+                        <table width=100%>
+                            <tr>
+                                <td width=220>
+                                    <input type="radio" name="answer1" value="William McKinley" id="WK"><h5>William McKinley</h5>
+                                </td>
+
+                                <td width=220>
+                                    <input type="radio" name="answer1" value="Abraham Lincoln" id="AL"><h5>Abraham Lincoln</h5>
+                                </td>
+
+                                <td width=220>
+                                    <input type="radio" name="answer1" value="John F. Kennedy" id="JFK"><h5>John F. Kennedy</h5>
+                                </td>
+
+                                <td width=220>
+                                    <input type="radio" name="answer1" value="George Washington" id="GW"><h5>George Washington</h5>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                    <br>
+
+
+                    <h4 id="q3"><b>"Being a politician is a poor profession. Being a public servant is a noble one."</b> </h4>
+                    <form action="" target="result" method="get">
+                        <table width=100%>
+                            <tr>
+                                <td width=220>
+                                    <input type="radio" name="answer2" value="Bill Clinton" id="BC"><h5>Bill Clinton</h5>
+                                </td>
+                                <td width=220>
+                                    <input type="radio" name="answer2" value="Dwight D. Eisenhower" id="DE"><h5>Dwight D. Eisenhower</h5>
+                                </td>
+
+                                <td width=220>
+                                    <input type="radio" name="answer2" value="Woodrow Wilson"
+                                    id="WW"><h5>Woodrow Wilson</h5>
+                                </td>
+
+                                <td width=220>
+                                    <input type="radio" name="answer2" value="Herbert Hoover"
+                                    id="HH"><h5>Herbert Hoover</h5>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                    <br>
+                </div>
+        </section>
+
+
+        <section id="correctAnswers">
+            
+            <h5></h5>
+
+        </section>
+
+
+
+        </div>
+
+
+        <footer>
+            <div class="container">
+                <p id="validator">
+                    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                        <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" />
+                    </a>
+
+                    <p id="html5-validator">
+                        <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+                            <img style="border:0;width:40px;height:40px" src="assets/images/HTML5_Logo_512.png" alt="Valid HTML5!" />
+                        </a>
+
+                        <p id="copyright">Copyright &copy; 2017 Melinda Hasselbring
+                            <br> All trademarks and registered trademarks appearing on this site are the property of their respective owners.
+                        </p>
+            </div>
+        </footer>
+        <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>

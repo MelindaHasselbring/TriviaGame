@@ -1,0 +1,141 @@
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: blue;;  
+  height: 100%;
+  background: url("http://wallpaper-gallery.net/images/us-flags-wallpaper/us-flags-wallpaper-24.jpg");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.head-container{
+  margin: 0;
+  float: center;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  background: purple;
+}
+ 
+h1{
+  color: #DBD3EA;
+  padding: 30px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 135px;
+  margin-right: 135px;
+}
+
+#main-container{
+  color: #DBD3EA;
+  padding: 0px 130px 0px 130px;
+  text-align: center;
+  background: #A3BFEE;
+  border-radius: 10px;
+  margin-top: 100px;
+
+ }
+
+.container {
+  height: auto !important;
+  height: 100%;
+  min-height: 100%;
+  margin: 0 auto;
+  clear: both;
+}
+
+.main-section #time-remaining{
+    color: black;
+}
+
+.main-section h2 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  background: #A3BFEE;
+  color: blue;
+  padding: 30px;
+}
+
+.main-section h3 {
+  font-size: 30px;
+  font-weight: 700; 
+  color: blue;;
+  background: #A3BFEE;
+}
+
+.main-section h4, h5 {
+  color: black;
+  background: #A3BFEE;
+}
+
+/*tr{
+  width: 220px;
+}*/
+
+#answer p{
+  line-height: 24px;
+  text-align: center;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+span {
+  color: red;
+  font-size: 18px;
+  font-weight: 500;
+
+}
+
+/* footer */
+
+footer,
+.push {
+  height: 100px;
+}
+
+footer {
+  padding: 30px 0;
+  clear: both;
+  font-size: 12px;
+  color:  #DBD3EA;
+  text-align: center;
+  line-height: 16px;
+  margin-left: 135px;
+  margin-right: 135px;
+}
+
+#html5-validator{
+    float:            left;
+}
+
+#copyright{
+  float: center;
+}
+
+#validator{
+    float:           right;
+}
+
+#html5-validator a, #validator a{
+  text-decoration:  none;
+  border-bottom: none;
+}
+
+#display{
+  font-size: 30px;
+  font-weight: 700; 
+  color: red;
+  background: #A3BFEE;;
+}
